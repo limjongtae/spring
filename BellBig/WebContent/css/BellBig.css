@@ -1,0 +1,27 @@
+@CHARSET "EUC-KR";
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+html, body{
+	
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto; /*가운데 정렬*/
+	
+}
+/* 전체 크기 조정 */
+.wrap{
+	
+	position: relative;
+	overflow: hidden; /* 구역 나누기 (정확히 뭔지 모르겠음) 경계 바깥으로 벗어나는 컨텐츠 숨기기*/
+	min-height: 100%;
+}
+
+.foot{
+	position: relative;
+	
+}
+/* 전체 크기조정 끝 */

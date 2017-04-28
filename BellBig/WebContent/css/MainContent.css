@@ -1,0 +1,11 @@
+@CHARSET "EUC-KR";
+
+.MainContent {
+	
+	width: 84%;
+	height: 1000px;
+	float: right;
+	border: 1px solid black;
+	position: relative;
+	
+}

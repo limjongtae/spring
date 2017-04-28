@@ -1,0 +1,15 @@
+@CHARSET "EUC-KR";
+
+.SubMenu {
+	
+	height: 100%;
+	border: 1px solid black;
+	width: 15%;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+
+.SubMenu a{
+	text-decoration: none;
+}

@@ -1,0 +1,30 @@
+@CHARSET "EUC-KR";
+
+.TopMenu{
+	
+	height: 25px; /* Top 메뉴 크기*/
+	width: 100%; /* 너비100% == Body크기*/
+	position: relative; /*포지션을 잡아주는 역활*/
+	padding: 0; /* 여백 없애기 */
+	display: inline-block;
+	float:right
+}
+
+.TopMenu div{
+	
+	float: left; /* Top 메뉴를 오른쪽 정렬 */
+}
+
+.TopMenu div:FIRST-CHILD {
+	margin-left: 65%;
+}
+
+.TopMenu a{
+	
+	text-decoration: none; /* a태그 밑줄 제거 */
+	text-align:center;
+	color: black;
+	font-size: 15px;
+	padding: 8px;
+	
+}
